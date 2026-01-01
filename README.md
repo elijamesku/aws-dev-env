@@ -61,7 +61,3 @@ cd ../networks && terraform destroy
 ## Roadmap
 
 Convert stacks to reusable modules, add tfvars per env, wire CI for fmt/validate/tflint/tfsec/plan, replace hardcoded AMIs with SSM, add logging and alarms
-
-
-
-
