@@ -6,3 +6,12 @@ terraform {
     encrypt = true
   }
 }
+
+terraform {
+  backend "s3" {
+    bucket  = "ss331-bucket"
+    key     = "aws/dev/network/terraform.tfstate"
+    region  = "us-east-2"
+    encrypt = true
+  }
+}
